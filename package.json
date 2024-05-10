@@ -9,7 +9,10 @@
   "version": "2.0.4",
   "license": "MIT",
   "main": "./dist/regression.js",
-  "repository": "https://github.com/jazeee/regression-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazeee/regression-js.git"
+  },
   "homepage": "https://github.com/jazeee/regression-js",
   "private": false,
   "keywords": [
