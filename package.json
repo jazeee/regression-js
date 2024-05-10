@@ -3,16 +3,17 @@
   "description": "Javascript least squares data fitting methods",
   "contributors": [
     "Tom Alexander <me@tomalexander.co.nz>",
-    "Misha Wolfson <misha@ginkgobioworks.com>"
+    "Misha Wolfson <misha@ginkgobioworks.com>",
+    "@jazeee"
   ],
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "MIT",
   "main": "./dist/regression.js",
-  "repository": "Tom-Alexander/regression-js",
+  "repository": "@jazeee/regression-js",
   "keywords": [
     "regression",
     "data",
-    "fiting",
+    "fitting",
     "modeling",
     "analysis"
   ],
