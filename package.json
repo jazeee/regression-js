@@ -6,7 +6,7 @@
     "Misha Wolfson <misha@ginkgobioworks.com>",
     "@jazeee"
   ],
-  "version": "2.0.10",
+  "version": "2.0.11",
   "license": "MIT",
   "main": "./dist/regression.js",
   "repository": {
@@ -28,8 +28,7 @@
     "test": "jest",
     "build": "npm run clean && npm run build-regression-js && npm run build-regression-min-js",
     "build-regression-js": "BABEL_ENV=production babel  --presets=@babel/env src --out-dir dist",
-    "build-regression-min-js": "uglifyjs dist/regression.js --output dist/regression.min.js",
-    "publish": "npm publish --access public"
+    "build-regression-min-js": "uglifyjs dist/regression.js --output dist/regression.min.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.7",
