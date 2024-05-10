@@ -6,7 +6,7 @@
     "Misha Wolfson <misha@ginkgobioworks.com>",
     "@jazeee"
   ],
-  "version": "2.0.5",
+  "version": "2.0.10",
   "license": "MIT",
   "main": "./dist/regression.js",
   "repository": {
