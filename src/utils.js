@@ -50,7 +50,6 @@ function round(number, precision) {
   return Math.round(number * factor) / factor;
 }
 
-
 /**
 * derive points, residuals, r squared from data
 *
