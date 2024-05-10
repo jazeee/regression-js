@@ -1,5 +1,5 @@
 {
-  "name": "regression",
+  "name": "@jazeee/regression",
   "description": "Javascript least squares data fitting methods",
   "contributors": [
     "Tom Alexander <me@tomalexander.co.nz>",
@@ -10,6 +10,7 @@
   "license": "MIT",
   "main": "./dist/regression.js",
   "repository": "@jazeee/regression-js",
+  "private": false,
   "keywords": [
     "regression",
     "data",
@@ -23,7 +24,8 @@
     "test": "jest",
     "build": "npm run clean && npm run build-regression-js && npm run build-regression-min-js",
     "build-regression-js": "BABEL_ENV=production babel  --presets=@babel/env src --out-dir dist",
-    "build-regression-min-js": "uglifyjs dist/regression.js --output dist/regression.min.js"
+    "build-regression-min-js": "uglifyjs dist/regression.js --output dist/regression.min.js",
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.7",
