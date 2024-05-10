@@ -33,6 +33,7 @@ function determinationCoefficient(data, results) {
   }, 0);
   return 1 - sse / ssyy;
 }
+
 /**
 * Round a number to a precision, specificed in number of decimal places
 *
@@ -43,12 +44,11 @@ function determinationCoefficient(data, results) {
 *
 * @return {number} - The number, rounded
 */
-
-
 function round(number, precision) {
   var factor = Math.pow(10, precision);
   return Math.round(number * factor) / factor;
 }
+
 /**
 * derive points, residuals, r squared from data
 *
@@ -59,8 +59,6 @@ function round(number, precision) {
 *
 * @return {object} - points, residuals, r2
 */
-
-
 function deriveDataProperties(data, predict, options) {
   var points = data.map(function (point) {
     return predict(point[0]);
@@ -75,7 +73,6 @@ function deriveDataProperties(data, predict, options) {
     residuals: residuals
   };
 }
-
 module.exports = {
   determinationCoefficient: determinationCoefficient,
   round: round,
